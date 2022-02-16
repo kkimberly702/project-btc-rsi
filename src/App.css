@@ -1,6 +1,13 @@
 .App {
+  background-color: gray;
+  
+}
+
+.title {
   text-align: center;
 }
+
+
 
 
 /* .App-logo {

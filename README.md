@@ -37,7 +37,7 @@ Bitcoin Relative Strength Index
 {
 "value": 54.495770202288455
 }
-https://api.taapi.io/rsi?secret=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJpbWJ5ODcwMUBhb2wuY29tIiwiaWF0IjoxNjQ0NTQ4OTA1LCJleHAiOjc5NTE3NDg5MDV9.uoMJzKLaYNKZOHSBVksoOKK09uuptKzMB4x5-Ui8WmI&exchange=binance&symbol=BTC/USDT&interval=1h
+
 
 
 ## MVP
@@ -64,6 +64,7 @@ Bitcoin Price (API) on Home page
 | Routes | H | 2hrs | x |
 | Home Page | H | 3hrs | x |
 | RSI Page | H | 6hrs | x |
+| Footer | H | 1hr | x |
 
 
 ## Additional Libraries
@@ -72,4 +73,4 @@ Bitcoin Price (API) on Home page
 
 { // Code Snippet }
 
-### Wireframe
+### Architecture and Wireframe

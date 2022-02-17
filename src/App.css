@@ -1,13 +1,15 @@
 .App {
+  background: rgb(2,2,3);
+  background: radial-gradient(circle, rgba(2,2,3,1) 0%, rgba(69,67,103,1) 0%, rgba(2,2,3,1) 33%);
+  background: url();
+  /* background-size: cover; */
 }
 
-.title {
-  text-align: center;
-}
 
 #disclaimer-footer {
   position: fixed;
   left: 0;
+  /* margin-top: 20px; */
   bottom: 0;
   width: 100%;
   background-color: black;
@@ -16,87 +18,145 @@
 }
 
 
-/* Home Page RSI styling */
+/* Home Page boxes styling */
 
 .container1 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: (3, 1fr);
+  grid-template-rows: (6, 1fr);
   color: white;
-  text-align: center;
+  align-self: center;
+  /* text-align: center; */
 }
 
 .box-title {
-  color: white;
-  background-color: black;
-  width: 500px;
-  height: 70px;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+  color: whitesmoke;
+  text-align: left;
+  font-size: 35px;
+  margin: 20px 0 15px 15px;
 }
 
 .box-info {
-  color: white;
-  background-color: black;
-  width: 500px;
-  height: 70px;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+  color: whitesmoke;
+  text-align: left; 
+  margin: 20px 0 15px 15px;
 }
 
+/* Home Page RSI Boxes styling */
+
 .rsi-info {
-  
-  background-color: silver;
+  grid-row: 3 / 5;
+  grid-column: 1 / 2;
+  background-color: #5d5d65;
   width: 320px;
-  border: 10px solid rgb(162, 4, 4);
-  padding: 40px;
-  margin: 20px;
+  border: 5px solid #918798;
+  padding: 30px;
+  margin: 20px 0 15px 15px;
   border-radius: 25px;
   text-align: center;
-  color: black;
+  color: whitesmoke;
+  text-align: center;
+  
 }
 
 .rsi-how-info {
-  
-  background-color: silver;
+  grid-row: 3 / 5;
+  grid-column: 2 / 3;
+  background-color: #5d5d65;
   width: 320px;
-  border: 10px solid rgb(162, 4, 4);
-  padding: 40px;
-  margin: 20px;
+  border: 5px solid #918798;
+  padding: 30px;
+  margin: 20px 0 15px 15px;
   border-radius: 25px;
   text-align: center;
-  color: black;
+  color: whitesmoke;
+  text-align: center;
 }
 
 
 .rsi-link {
-  
-  background-color: silver;
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  background-color: #5d5d65;
   width: 320px;
-  border: 10px solid rgb(162, 4, 4);
-  padding: 40px;
-  margin: 20px;
+  border: 5px solid #918798;
+  padding: 30px;
+  margin: 20px 0 15px 15px;
   border-radius: 25px;
   text-align: center;
-  color: black;
+  color: whitesmoke;
+  text-align: center;
 }
+
+/* Home Page MACD boxes styling */
+
+.macd-info {
+  grid-row: 5 / 7;
+  grid-column: 1 / 2;
+  background-color: #5d5d65;
+  width: 320px;
+  border: 5px solid #96adb9;
+  padding: 40px;
+  margin: 20px 0 15px 15px;
+  border-radius: 25px;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.macd-how-info {
+  grid-row: 5 / 7;
+  grid-column: 2 / 3;
+  background-color: #5d5d65;
+  width: 320px;
+  border: 5px solid #96adb9;
+  padding: 40px;
+  margin: 20px 0 15px 15px;
+  border-radius: 25px;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.macd-link {
+  grid-row: 5 / 6;
+  grid-column: 3 / 4;
+  background-color: #5d5d65;
+  width: 320px;
+  border: 5px solid #96adb9;
+  padding: 30px;
+  margin: 20px 0 15px 15px;
+  border-radius: 25px;
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
 
 /* RSI Page styling */
 
 .rsi-data {
-  background-color: silver;
+  background-color: #5d5d65;
   width: 320px;
-  border: 10px solid rgb(162, 4, 4);
+  border: 5px solid #918798;
   padding: 40px;
   margin: 20px;
   border-radius: 25px;
   text-align: center;
+  color: whitesmoke;
 }
 .rsi-entry-exit {
-  background-color: silver;
+  background-color: #5d5d65;
   width: 320px;
-  border: 10px solid rgb(162, 4, 4);
+  border: 5px solid #918798;
   padding: 40px;
   margin: 20px;
   border-radius: 25px;

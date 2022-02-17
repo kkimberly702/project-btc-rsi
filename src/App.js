@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
 
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
     <Link className="navbar-brand" href="#" to="/">Home</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,8 +21,10 @@ function App() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="#">Bitcoin</a>
         <Link className="nav-link active" href="#" to='/btcrsi/:value'>RSI</Link>
+        <a className="nav-link active" aria-current="page" href="#">MACD</a>
+        <a className="nav-link active" aria-current="page" href="#">Bitcoin</a>
+        
       </div>
     </div>
   </div>

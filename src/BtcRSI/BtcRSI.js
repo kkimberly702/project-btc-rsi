@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo} from 'react';
+import React, { useState, useEffect } from 'react';
 
 function BtcRSI () {
     
@@ -15,7 +15,6 @@ function BtcRSI () {
 
     
         function result(rsiValue) {
-        console.log(rsiValue.value);
             if (rsiValue.value >= 70) {
           result = 'exit';
         } 
@@ -26,7 +25,7 @@ function BtcRSI () {
           result = 'please wait for signal';
         }
         return (
-            <h2>{result}</h2>
+            <p>{result}</p>
             );
     }
       
@@ -45,24 +44,13 @@ function BtcRSI () {
                 </div>
 
                 <div className="rsi-entry-exit">
-                    <p>{result(rsiValue)}</p>
+                    <h2>{result(rsiValue)}</h2>
                 </div>
         
         </div>
     );
 }
 
-// let btcRSI = 100;
-
-// if (btcRSI >= 70 && btcRSI < 100) {
-//     console.log('sell');
-// };
-
-// else if (btcRSI <= 30 && btcRSI < 0) {
-//     console.log('buy');
-// };
-
-// else if (btcRSI = )
 
 // APIkey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJpbWJ5ODcwMUBhb2wuY29tIiwiaWF0IjoxNjQ0NTQ4OTA1LCJleHAiOjc5NTE3NDg5MDV9.uoMJzKLaYNKZOHSBVksoOKK09uuptKzMB4x5-Ui8WmI
 

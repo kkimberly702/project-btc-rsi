@@ -8,6 +8,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import BtcRSI from './BtcRSI/BtcRSI';
 import Home from './Home/Home';
+import Footer from './Footer/Footer';
+
+
 
 function App() {
   return (
@@ -43,10 +46,8 @@ function App() {
 
 
       </main>
+      <Footer/>
 
-      <footer id="disclaimer-footer">
-        <p>Disclaimer: This is not financial advice. I am not a financial advisior. The signals provided have not been tested.</p>
-      </footer>
       
     </div>
   );

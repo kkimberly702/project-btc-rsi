@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import React, { useEffect, useState } from "react";
 import { Route, Routes, Link, Navigate } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 //components
-
+import './App.css';
 import BtcRSI from './BtcRSI/BtcRSI';
 import Home from './Home/Home';
 import Footer from './Footer/Footer';

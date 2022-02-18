@@ -1,4 +1,4 @@
-import bootstrap from "bootstrap"
+
 
 function BitcoinPage() {
     return (

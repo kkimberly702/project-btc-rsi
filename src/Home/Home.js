@@ -1,5 +1,4 @@
 import React  from "react";
-import BtcRSI from "../BtcRSI/BtcRSI";
 import { Link } from "react-router-dom";
 
 function Home() {

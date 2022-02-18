@@ -9,6 +9,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import BtcRSI from './BtcRSI/BtcRSI';
 import Home from './Home/Home';
 import Footer from './Footer/Footer';
+import BitcoinPage from './BitcoinPage/BitcoinPage';
 
 
 
@@ -26,7 +27,7 @@ function App() {
       <div className="navbar-nav">
         <Link className="nav-link active" href="#" to='/btcrsi/:value'>RSI</Link>
         <a className="nav-link active" aria-current="page" href="#">MACD</a>
-        <a className="nav-link active" aria-current="page" href="#">Bitcoin</a>
+        <Link className="nav-link active" href="#" to='/bitcoin'>Bitcoin Price</Link>
         
       </div>
     </div>
@@ -38,6 +39,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/btcrsi/:value' element={<BtcRSI />} />
           <Route path='/rsi' element={<Navigate to='/btcrsi/:value'/>} />
+          <Route path='/bitcoin' element={<BitcoinPage />} />
 
 
 

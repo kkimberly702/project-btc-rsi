@@ -37,6 +37,8 @@ Bitcoin Relative Strength Index
 "value": 54.495770202288455
 }
 
+'https://api.taapi.io/'
+
 
 
 ## MVP

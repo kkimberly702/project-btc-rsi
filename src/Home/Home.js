@@ -57,6 +57,7 @@ function Home() {
 
         <div className="macd-link">
             Please subscribe to access the MACD Page!
+            
         </div>
 
     </div>

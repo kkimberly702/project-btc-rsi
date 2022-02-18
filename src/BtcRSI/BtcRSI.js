@@ -11,7 +11,7 @@ function BtcRSI () {
 
     }, [])
 
-    console.log(rsiValue);
+    // console.log(rsiValue);
 
     
         function result(rsiValue) {

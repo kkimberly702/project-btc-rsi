@@ -41,6 +41,8 @@ function BtcRSI () {
             <div className="rsi-data">
                 <p>BTC RSI Value: </p>
                 <p>{rsiValue.value}</p> 
+                <p>enter if value is 30 or below</p>
+                <p>exit if value is 70 or above</p>
                 </div>
 
                 <div className="rsi-entry-exit">

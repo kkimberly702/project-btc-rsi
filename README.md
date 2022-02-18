@@ -27,7 +27,7 @@ Description of RSI.
 [] No pre-loaded create-react-app files or code.
 
 ## Necessary Deliverables
-[] Commits min. 15
+[x] Commits min. 15
 [x] A Professional README
 [x] A Complete Project Proposal
 
@@ -84,7 +84,7 @@ Bootstrap
           result = 'please wait for signal';
         }
         return (
-            <p>{result}</p>
+            {result}
             );
     }}
 

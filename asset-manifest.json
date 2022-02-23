@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/project-btc-rsi/static/css/main.66848de9.css",
+    "main.js": "/project-btc-rsi/static/js/main.843b39bb.js",
+    "static/js/787.f6b2eaaf.chunk.js": "/project-btc-rsi/static/js/787.f6b2eaaf.chunk.js",
+    "static/media/background.jpeg": "/project-btc-rsi/static/media/background.4cafc4f2d0c25d9423f7.jpeg",
+    "index.html": "/project-btc-rsi/index.html",
+    "main.66848de9.css.map": "/project-btc-rsi/static/css/main.66848de9.css.map",
+    "main.843b39bb.js.map": "/project-btc-rsi/static/js/main.843b39bb.js.map",
+    "787.f6b2eaaf.chunk.js.map": "/project-btc-rsi/static/js/787.f6b2eaaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66848de9.css",
+    "static/js/main.843b39bb.js"
+  ]
+}
